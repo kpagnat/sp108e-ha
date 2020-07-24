@@ -19,7 +19,7 @@ On RPi1:
 * In NodeRed, import the flow (included here).
 
 On RPi2:
-* Add these lines to configuration.yaml:
+* Add these lines to configuration.yaml (changing the line 'resource' with the IP address of the RPi1) :
 ```
 switch:
  - platform: rest
